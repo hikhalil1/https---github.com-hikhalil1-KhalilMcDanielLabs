@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <Appenders>
+        <Appender type="Console" name="csl" target="STDOUT">
+            <PatternLayout pattern="%-5level - %msg%n"/>
+        </Appender>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="csl"/>
+        </Root>
+    </Loggers>
+</Configuration>
